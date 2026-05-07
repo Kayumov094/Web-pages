@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intizom maqolasi</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        header {
+            background-image: url("unsplash_5j.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;     /* Rasmni cho'zmasdan butun maydonni qoplashini ta'minlaydi */
+            background-position: center; /* Rasmning markaziy qismini ko'rsatadi */
+            height: 150px;
+            }
+        .header_name {
+            text-align:right;
+            color: rgb(9, 99, 132);
+        }
+        .asosiy_oyna {
+            display: grid;
+            grid-template-columns: 5% 90% 5%;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+        .left_side_bar {
+            background-color: azure;
+             
+        }
+        .center_bar {
+            background-color: azure;
+        }
+        .right_side_bar {
+            background-color: azure;
+        }
+        .muallif {
+            text-align: right;
+        }
+        .maqola_nomi {
+            text-align:center;
+            margin:10px;
+        }
+        .table_class {
+            /*background-color:white;*/
+            display:block;
+            margin-bottom: 10px;
+            text-indent: 30px;
+            margin-bottom:10px;
+            text-align:justify; /* matn ni ekran bo'yicha taqsimlaydi*/
+            letter-spacing: 1px;
+            word-spacing: 3px;
+            line-height: 1.8;
+        }
+        .asosiy_section {
+            color:black;
+        }
+        p {
+            text-indent: 30px;
+            margin-bottom:10px;
+            text-align:justify; /* matn ni ekran bo'yicha taqsimlaydi*/
+            letter-spacing: 1px;
+            word-spacing: 3px;
+            line-height: 1.8;
+        }
+        .intizom_turlari {
+            text-indent: 30px;
+            margin:10px;
+            text-align:justify; /* matn ni ekran bo'yicha taqsimlaydi*/
+            letter-spacing: 1px;
+            word-spacing: 3px;
+            line-height: 1.8;
+
+        }
+        h3 {
+            text-indent: 30px;
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class = "header_name">SkopX tahlil agentligi</h1>
+        </div>
+    </header>
+    <main class = "asosiy_oyna">
+        <aside class ="left_side_bar"></aside>
+        <article class = "center_bar">
+            <p class = "muallif">Muallif: Arslonbek Qayumov</p>
+            <h1 class = "maqola_nomi">Intizom nima?</h1>
+            <table class = "table_class">
+                <tr>
+                    <td>1. Intizom nima va u qanday turlarga bo'lish mumkin?</td>
+                </tr>
+                <tr>
+                    <td>2. U shaxsga tegishlimi yoki harakatlarimizga?</td>
+                </tr>
+                <tr>
+                    <td>3. Intizom faqat yaxshi amallar uchunmi?</td>
+                </tr>
+                <tr>
+                    <td>4. Intizomli inson falsafasi qanday?</td>
+                </tr>               
+            </table>
+            <section class = "asosiy_section">
+                <!--Asosiy kirish matni-->
+                <p>Atrofdagi hamma insonlar o'zlarini dunyolarida, 
+                    o'zlarini maqsadlari uchun harakat qiladilar. 
+                    Dastlab, shunchaki yashaydilar keyinchalik hayotda 
+                    o'zlarini qidira boshlaydilar. 
+                    (balki umuman qidirmasligi ham mumkin).</p>
+                
+                <p>Intizom bu insonni maqsad yo'lida o'z xohishlarini jilovlay olishidir.  Intizomni shartli ikki guruhga ajratsak bo'ladi:</p>
+                <!--To'g'ri royhat tuzilmasi-->
+                <ol class = "intizom_turlari">
+                    <li>  ichki intizom</li>
+                    <li>  jamiyat intizomi</li>
+                </ol>
+
+                <!--Kichik bo'limlar-->
+                <div class = "intizom_turlari_nima">
+                    <h3>Ichki intizom</h3>
+                    <p>Ichki intizom - bu tashqi nazoratsiz, ya'ni hech kim buyurmasa ham yoki hech kim ko'rmayotgan bo'lsa ham, kerakli ishni kerakli vaqtda bajarishdir. Islom dinida ham ichki intizomga urg'u beriladi.</p>
+                    <p>Ichki intizomli bo'lish - bu o'z-o'ziga bergan va'dasini ustidan chiqish va o'z hayoti uchun to'liq ma'suliyatni zimmasiga olish demakdir.</p>
+                </div>
+                <div class = "intizom_turlari_nima">
+                    <h3>Jamiyat intizomi</h3>
+                    <p>Jamiyat intizomi - bu ma'lum bir jamiyatda (shahar, tashkilot yoki butun mamlakat) yashovchi insonlarning umumiy qabul qilingan qoidalar, qonunlar va axloqiy normalarga rioya qilish darajasidir</p>
+                </div>
+
+                <div class = "intizom_insongami_harakatga">
+                    <h3>Intizom insonga tegishlimi yoki harakatlarimizgami?</h3>
+                    <p>Bu savolga ikkala tomondan ham javob berish to'g'ri bo'ladi, chunki ular bir-birini to'ldiradi:
+                        Insonning xususiyati sifatida - bu xarakterning bir qismi. Inson "intizomli" deb ta'riflanadi, ya'ni u o'z irodasini boshqara oladigan, mas'uliyatli va qat'iyatli shaxsdir. </p>
+                    <p>Harakatning sifati sifatida: Har qanday reja yoki vazifa "intizomli bajarilishi" kerak. Agar harakatda izchillik va tartib bo'lmasa, u shunchaki tasodifiy urinish bo'lib qoladi.</p>
+                    <p>Intizomning ichki boshlanish nuqtasi inson ongi. Inzon ongida boshlangan intizom harakatga ko'chadi va unda namoyon bo'ladi. </p>
+                    <p>Intizom insondan boshlanadi va uning harakatlarida namoyon bo'ladi. Inson - manba, harakat esa - natija.</p>
+                    <p>Intizom miyada takrorlash orqali shakllanadi. Miya uchun "katta" yoki "kichik" ishning farqi yo'q. Agar siz har kuni ertalab o'rningizni yig'ishdek kichik ishda intizomli bo‘lsangiz, miyangiz murakkab ishlarda ham intizomli bo'lishga moslashib boradi.</p>
+                </div>
+
+                <div class = intizom_yaxshi_amallar_uchunmi>
+                    <h3>Intizom faqat yaxshi amallar uchunmi?</h3>
+                    <p>Intizom - bu shunchaki instrument (vosita). Uni konstruktiv / destruktiv amallar uchun ham ishlatish mumkin.</p>
+                    <p>Shunchaki intizomning o'zi insonni "yaxshi odam" qilib qo'ymaydi. Intizom insonning salohiyatini (potensialini) ko'paytiruvchi visotadir.
+    Konstruktiv ichki intizom erkinlikka olib borsa, Destruktiv ichki intizom “robot”likka.</p>
+
+                </div>
+               
+                <div class = ichki_intizomli_inson_falsafasi></div>
+                    <h3>Ichki intizomli insonning falsafasi nima?</h3>
+                    <p>Ichki intizomli insonning falsafasi - bu shunchaki "tartibga rioya qilish" emas, balki o'z hayoti ustidan to'liq egalikni qo'lga olishdir. Bunday insonlar dunyoga va o'zlariga ma'lum bir prinsiplar prizmasi orqali qaraydilar.Falsafasi: "Agar men o'zimni boshqarmasam, boshqalar (yoki his-tuyg'ularim) meni boshqaradi."</p>
+                    <p>Ichki intizomga ega insonlar uchun intizom - bu "manzilga yetguncha chidash kerak bo'lgan azob" emas, balki yashash tarzidir. Falsafasi: "Muvaffaqiyat - bu bir martalik voqea emas, bu kundalik odatlar yig'indisidir."</p>
+                    <p>Xulosa qilib aytganda, ichki intizomli insonning falsafasi - o'ziga bergan va'dasini hamma narsadan ustun qo'yishdir. Bu o'z-o'ziga bo'lgan hurmatning eng yuqori cho'qqisi hisoblanadi.  </p>
+                </section>
+                <div> 
+                    <p>Eslatma:<i>Ushbu fikrlarning ayrimlari SI yordamida tartibga solingan.</i> </p>
+                </div>
+                 
+         
+            
+           
+
+
+        </article>
+        
+        <aside class = "right_side_bar"></aside>
+
+    </main>
+  
+   
+     
+     
+</body>
+</html>
